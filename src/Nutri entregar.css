@@ -1,0 +1,43 @@
+.header{
+  background-color: rgb(6, 52, 18);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ padding: 50px;
+ color: rgb(240, 236, 235) ;
+ text-align: center;
+ 
+  
+
+}
+
+.article{
+ 
+  padding: 10px;
+  display: inline;
+  color: aliceblue;
+  
+
+
+
+}
+
+.button{
+  background-color: rgb(178, 125, 56);
+  padding-bottom: 5px;
+  border-bottom-right-radius: 20px;
+  
+
+
+}
+
+.img{
+margin-top: 50px;
+margin-bottom: 5px;
+align-items: center;
+
+}
+h3{
+  color: rgb(183, 238, 170);
+
+
+}
+
