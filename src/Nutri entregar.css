@@ -8,9 +8,9 @@
 
 .article {
   padding: 10px;
-  display: inline-block; /* Alterado para inline-block para permitir controle de largura */
+  display: inline-block;
   color: aliceblue;
-  width: 100%; /* Ajustado para ocupar toda a largura disponível */
+  width: 100%;
 }
 
 .button {
@@ -22,7 +22,7 @@
 .img {
   margin-top: 50px;
   margin-bottom: 5px;
-  display: block; /* Certifique-se de que a imagem é um bloco para alinhar corretamente */
+  display: block; 
   margin-left: auto;
   margin-right: auto;
 }
