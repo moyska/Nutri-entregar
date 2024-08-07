@@ -1,43 +1,105 @@
-.header{
+.header {
   background-color: rgb(6, 52, 18);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- padding: 50px;
- color: rgb(240, 236, 235) ;
- text-align: center;
- 
-  
-
+  padding: 50px;
+  color: rgb(240, 236, 235);
+  text-align: center;
 }
 
-.article{
- 
+.article {
   padding: 10px;
-  display: inline;
+  display: inline-block; /* Alterado para inline-block para permitir controle de largura */
   color: aliceblue;
-  
-
-
-
+  width: 100%; /* Ajustado para ocupar toda a largura disponível */
 }
 
-.button{
+.button {
   background-color: rgb(178, 125, 56);
   padding-bottom: 5px;
   border-bottom-right-radius: 20px;
-  
-
-
 }
 
-.img{
-margin-top: 50px;
-margin-bottom: 5px;
-align-items: center;
-
+.img {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  display: block; /* Certifique-se de que a imagem é um bloco para alinhar corretamente */
+  margin-left: auto;
+  margin-right: auto;
 }
-h3{
+
+h3 {
   color: rgb(183, 238, 170);
-
-
 }
+
+/* Media Queries para responsividade */
+
+/* Estilos para telas pequenas (smartphones) */
+@media (max-width: 600px) {
+  .header {
+    padding: 20px;
+    font-size: 1.2em; /* Ajusta o tamanho da fonte */
+  }
+
+  .article {
+    padding: 5px;
+    font-size: 1em; /* Ajusta o tamanho da fonte */
+  }
+
+  .button {
+    padding: 10px; /* Ajusta o padding para botões */
+    border-radius: 10px; /* Ajusta o raio da borda */
+  }
+
+  .img {
+    width: 100%; /* Imagem ocupa a largura total da tela */
+    margin-top: 20px;
+  }
+}
+
+/* Estilos para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .header {
+    padding: 30px;
+    font-size: 1.5em; /* Ajusta o tamanho da fonte */
+  }
+
+  .article {
+    padding: 10px;
+    font-size: 1.1em; /* Ajusta o tamanho da fonte */
+  }
+
+  .button {
+    padding: 10px; /* Ajusta o padding para botões */
+    border-radius: 15px; /* Ajusta o raio da borda */
+  }
+
+  .img {
+    width: 80%; /* Imagem ocupa 80% da largura da tela */
+    margin-top: 30px;
+  }
+}
+
+/* Estilos para telas grandes (desktops) */
+@media (min-width: 1025px) {
+  .header {
+    padding: 40px;
+    font-size: 2em; /* Ajusta o tamanho da fonte */
+  }
+
+  .article {
+    padding: 15px;
+    font-size: 1.2em; /* Ajusta o tamanho da fonte */
+  }
+
+  .button {
+    padding: 15px; /* Ajusta o padding para botões */
+    border-radius: 20px; /* Ajusta o raio da borda */
+  }
+
+  .img {
+    width: 60%; /* Imagem ocupa 60% da largura da tela */
+    margin-top: 40px;
+  }
+}
+
 
